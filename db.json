@@ -1,14 +1,24 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "ds": [
+    { "id": 1, "title": "D1" },
+    { "id": 2, "title": "D2" },
+    { "id": 3, "title": "D3" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "ds-cas": [
+    { "id": 1, "P1": "100", "dsId": 1 },
+    { "id": 2, "P2": "350", "dsId": 1 },
+    { "id": 3, "P1": "75", "dsId": 2 },
+    { "id": 4, "P2": "200", "dsId": 2 },    
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "hos-cap": [
+    { "id": 1, "TTSH": "90", "dsId": 1 },
+    { "id": 2, "SGH": "90", "dsId": 1 },
+    { "id": 3, "NUH": "60", "dsId": 2 },
+    { "id": 4, "KTPGH": "30", "dsId": 2 },
+    { "id": 5, "AH": "10", "dsId": 1 },
+    { "id": 6, "CGH": "90", "dsId": 1 },
+    { "id": 7, "SKH": "90", "dsId": 2 },
+    { "id": 8, "NUH": "60", "dsId": 2 },    
+    { "id": 8, "KKH": "30", "dsId": 2 },    
+  ],
 }
